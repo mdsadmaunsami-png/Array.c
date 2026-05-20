@@ -16,7 +16,7 @@ int main()
         {
             printf("Found: %d",LA[mid]);
             count++;
-            return 0;
+            return 0;                     // break; can be usable. no problem.
         }
         else if(LA[mid]<target)
         {
@@ -53,7 +53,7 @@ int main()
         if(LA[mid]==target)
         {
             printf("Found: %d",LA[mid]);
-            return 0;
+            return 0;                      // remember<<<< break; can't be usable. return 0; must
         }
         else if(LA[mid]<target)
         {
